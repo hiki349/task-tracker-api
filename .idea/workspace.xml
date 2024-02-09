@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="95259c78-d54b-4f0b-a9bc-70c399fd7e00" name="Changes" comment="Init&#10;- Create ProjectController&#10;- Create Entities (Project, TaskState, Task)&#10;- Create Repositories for entities&#10;- Create DTO for entities&#10;- Create Mapper to dto (ProjectFactory, TaskStateFactory, TaskFactory)&#10;- Create global exception handler">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api/controllers/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api/dto/ProjectDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api/dto/TaskDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api/dto/TaskStateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api/exceptions/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api/exceptions/CustomErrorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api/exceptions/CustomExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api/exceptions/ErrorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api/factories/ProjectDtoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api/factories/TaskFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/api/factories/TaskStateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/store/entities/ProjectEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/store/entities/TaskEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/store/entities/TaskStateEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/store/repositories/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/store/repositories/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/store/repositories/TaskStateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="task-tracker-api" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Record" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2c5AmzkSLOEZa1TftGArtX05XkB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Gradle.Build task-tracker-api.executor": "Run",
+    "HTTP Request.rest-api | #1.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Application.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="rest-api | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="task-tracker-api.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.rest-api | #1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95259c78-d54b-4f0b-a9bc-70c399fd7e00" name="Changes" comment="" />
+      <created>1707389819093</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707389819093</updated>
+      <workItem from="1707389820538" duration="955000" />
+      <workItem from="1707391231154" duration="32000" />
+      <workItem from="1707393384711" duration="19923000" />
+      <workItem from="1707483318070" duration="1329000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Init&#10;- Create ProjectController&#10;- Create Entities (Project, TaskState, Task)&#10;- Create Repositories for entities&#10;- Create DTO for entities&#10;- Create Mapper to dto (ProjectFactory, TaskStateFactory, TaskFactory)&#10;- Create global exception handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init&#10;- Create ProjectController&#10;- Create Entities (Project, TaskState, Task)&#10;- Create Repositories for entities&#10;- Create DTO for entities&#10;- Create Mapper to dto (ProjectFactory, TaskStateFactory, TaskFactory)&#10;- Create global exception handler" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
