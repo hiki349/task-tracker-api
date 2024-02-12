@@ -6,6 +6,7 @@ import lombok.*;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Entity
 @Table(name = "task_states")
@@ -22,7 +23,7 @@ public class TaskStateEntity {
 
     private String name;
 
-    private Integer ordinal;
+    private Long orderliness;
 
     @Builder.Default
     private Instant createdAt = Instant.now();
